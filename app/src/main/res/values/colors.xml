@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF5E5</color>
+    <color name="colorPrimaryDark">#080128</color>
+    <color name="tabtext">#FFFCFC</color>
+    <color name="tabselect">#080128</color>
+
+
+    <color name="colorAccent">#FFF5E5</color>
+    <color name="line">#FC0000</color>
+
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="bgContentTop">#232938</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#FFF5E5</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#FFF5E5</color>
+    <color name="bgBackSideColor">#FF0004</color>
+    <color name="bgTitleLeft">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#FFBF12</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

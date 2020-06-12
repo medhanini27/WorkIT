@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#23283a"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="288dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bike"
+                />
+
+            <TextView
+                android:id="@+id/textView24"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@android:drawable/ic_menu_add"
+                android:text="ADD NEW TASK"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:id="@+id/taskplace"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+
+                android:background="@drawable/gradient_2"
+                android:text=" click here to Add Task Location"
+                android:textColor="#FDFDFD" />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:hint="TITLE"
+                app:backgroundTint="@color/line" />
+
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                app:backgroundTint="@color/line" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="303dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:hint="DESCRIPTION"
+                app:backgroundTint="@color/line" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/gradient_2"
+
+                android:text="click here to ADD DEADLINE"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="351dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/buttonshape3"
+                    android:text="ADD" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttonshape3"
+                    android:text="cancel" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</ScrollView>

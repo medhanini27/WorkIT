@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Hanini Mohamed\\Desktop\\WORKIT2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hanini Mohamed\\.gradle\\caches\\transforms-2\\files-2.1\\9ff5d713e61906f75205545518426a9a\\jetified-mapbox-android-navigation-ui-0.42.4\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,157",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "100,152,205"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "113,163,215",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "158,210,263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hanini Mohamed\\.gradle\\caches\\transforms-2\\files-2.1\\6b4385f7ee1400096acdd20d9f2ef8db\\jetified-mapbox-android-navigation-0.42.4\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}
